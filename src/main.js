@@ -5,8 +5,6 @@ import "./style.css";
 
 const wrapper = document.querySelector("#bookWrapper");
 const form = document.querySelector("#bookForm");
-const titleInput = document.querySelector("#title");
-const authorInput = document.querySelector("#author");
 const message = document.querySelector("#message");
 
 message.innerText = "Hämtar böcker...";
@@ -19,6 +17,9 @@ getAllBooks()
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
+
+  const titleInput = document.querySelector("#title");
+  const authorInput = document.querySelector("#author");
 
   const title = titleInput.value.trim();
   const author = authorInput.value.trim();
