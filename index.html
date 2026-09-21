@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Min BokLista</title>
+  </head>
+  <body>
+    <main>
+      <h1>Min BokLista</h1>
+
+      <form id="bookForm">
+        <label for="title">Titel</label>
+        <input id="title" type="text" />
+
+        <label for="author">Författare</label>
+        <input id="author" type="text" />
+
+        <button>Lägg till bok</button>
+      </form>
+      <!-- Skriver "Hämtar Böcker..." eller ett felmeddelande -->
+      <p id="message"></p>
+
+      <h2>Mina böcker</h2>
+      <!-- Behållare där alla böcker läggs till -->
+      <div id="bookWrapper"></div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
