@@ -13,12 +13,12 @@ Jag har använt HTML, CSS, JavaScript, Vite och Firebase Realtime Database. Kode
 ## Mappstruktur
 
 - src/modules/
-  Book.js
-  firebaserequests.js
-  getbookcard.js
+  - Book.js
+  - firebaserequests.js
+  - getbookcard.js
 - src/
-  main.js
-  style.css
+  - main.js
+  - style.css
 - index.html
 - package.json
 - .gitignore
