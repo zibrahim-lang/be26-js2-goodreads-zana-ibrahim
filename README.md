@@ -13,11 +13,11 @@ Jag har använt HTML, CSS, JavaScript, Vite och Firebase Realtime Database. Kode
 ## Mappstruktur
 
 - src/modules/
-  - Book.js
-  - firebaserequests.js
-  - getbookcard.js
+  - Book.js // Klassen för böcker och metoder för att ändra och radera dem.
+  - firebaserequests.js // Hämtar böcker och sparar nya i Firebase.
+  - getbookcard.js // Skapar bok kortet och hanterar knappar och betyg.
 - src/
-  - main.js
+  - main.js // Startar appen och hanterar formuläret.
   - style.css
 - index.html
 - package.json
